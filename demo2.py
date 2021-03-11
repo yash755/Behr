@@ -59,7 +59,8 @@ for company in companies:
             manufacturer_name = manufacturer['name']
             manufacturer_id = manufacturer['id']
 
-            done = ['BETA','HONDA','KAWASAKI','KYMCO','MBK','PEUGEOT']
+            done = ['BETA','HONDA','KAWASAKI','KYMCO','MBK','PEUGEOT','PIAGGIO','SUZUKI','SYM','YAMAHA','APRILIA','BENELLI','CAGIVA',
+                    'CPI','DAELIM','DERBI','GILERA','HYOSUNG','ITALJET','KEEWAY','MALAGUTI','PGO','RIEJU','TGB','VESPA']
 
             if manufacturer_name not in done:
 
