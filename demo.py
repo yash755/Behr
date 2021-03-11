@@ -56,7 +56,7 @@ for company in companies:
         manufacturer_name = manufacturer['name']
         manufacturer_id = manufacturer['id']
 
-        done = ['BETA', 'BMW', 'GAS GAS', 'HONDA', 'HUSABERG', 'HUSQVARNA']
+        done = ['BETA', 'BMW', 'GAS GAS', 'HONDA', 'HUSABERG', 'HUSQVARNA','KAWASAKI','KTM','SHERCO','SUZUKI']
 
         if manufacturer_name not in done:
 
